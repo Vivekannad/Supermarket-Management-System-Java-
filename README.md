@@ -72,15 +72,14 @@ A Java-based console application that simulates a retail store's backend operati
 1. **Clone or download** this repo.
 2. Compile all \`.java\` files:
 
-   \`\`\`bash
-   javac *.java
-   \`\`\`
+   ```
+    javac *.java```
 
 3. Run the main program:
 
-   \`\`\`bash
+    ```angular2html
    java Main
-   \`\`\`
+    ```
 
 ---
 
@@ -88,13 +87,16 @@ A Java-based console application that simulates a retail store's backend operati
 
 > You can edit the \`Employees\` class to pre-register Admins and Cashiers.
 
-\`\`\`java
+java
 // Sample admin
+```angular2html
 Admin admin = new Admin("admin123", "password123");
-
+```
 // Sample cashier
+```angular2html
 Cashier cashier = new Cashier("cashier01", "1234");
-\`\`\`
+```
+
 
 ---
 
